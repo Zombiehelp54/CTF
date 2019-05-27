@@ -40,7 +40,7 @@ class ThreadingSimpleServer(ThreadingMixIn, HTTPServer):
     pass
 
 def run():
-    server = ThreadingSimpleServer(('138.68.169.56', 8900), Handler)
+    server = ThreadingSimpleServer(('127.0.0.1', 8900), Handler)
     server.serve_forever()
 
 if __name__ == '__main__':
