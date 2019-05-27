@@ -18,8 +18,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "Text/HTML")
         self.end_headers()
-        ip = self.client_address[0]
-
+        
         if "user" in self.path:
             i_slash = self.path.index('/')
             val = self.path[(i_slash + 6):]
