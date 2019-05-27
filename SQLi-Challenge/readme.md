@@ -21,4 +21,4 @@ between a subquery that returns true and another that returns false other than c
 
 Thanks to everyone who participated.
 
-I will publish a detailed writeup rgarding the original bug and a mod security bypass soon on my blog: http://mahmoudsec.blogspot.com/ 
+I will publish a detailed writeup regarding the original bug and other solutions soon on my blog: http://mahmoudsec.blogspot.com/ 
